@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Karla', 'Arial', sans-serif;
+}
+
+.container .back-btn {
+  color: #fff;
+  background-color: #333;
+  padding: 10px 13px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.container i {
+  margin-top: 20px;
+}
+
+.hidden{
+display:none;
+}
+#section3{
+padding:30px;
+background-color:#fff;
+max-width:800px;
+margin:0 auto;  
+}
+#section3 h1{
+    font-weight:normal;
+    color: #444;
+    font-size:64px;
+    text-align:center;
+}
+#contactForm{
+  font-family: 'Karla', 'Arial', sans-serif;
+}
+.form-wrapper .field-list {
+    line-height: normal;
+}
+.form-wrapper .field-list .field {
+    position: relative;
+    margin: 0 0 24px;
+}
+.form-wrapper .field-list .fields {
+    margin: 0 0 0 -2%;
+}
+.form-wrapper .field-list .fields .title, .form-wrapper .field-list .fields .description, .form-wrapper .field-list .fields .field, .form-wrapper .field-list .fields .field-error {
+    margin-left: 2%;
+}
+.form-wrapper .field-list .fields .field {
+    float: left;
+}
+.form-wrapper .field-list .fields.name .field {
+    width: 48%;
+}
+.form-wrapper .field-list .field .field-element {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.form-wrapper .field-list .field .caption {
+    font-size: 12px;
+}
+fieldset{
+border:none;
+}
+.form-wrapper .field-list legend {
+    display: none;
+}
+input:focus{
+    background-color:#fff !important;
+    cursor: auto;
+}
+.form-button-wrapper{
+text-align:center;
+}
+.form-button-wrapper input.button{
+   background-color: #202020;
+   color: #fff;
+   text-transform:uppercase;
+   font-family: 'Karla', 'Arial', sans-serif;
+   font-size:20px;
+   letter-spacing:2px;
+   border:none;
+   padding:1em 2.5em;
+   transition: all 0.2s ease;
+   border-radius: 5px;
+}
+.form-button-wrapper input.button:hover{
+    cursor: pointer;
+    border: 2px solid #466079;
+    color: #000;
+    background: transparent;
+}
+.form-button-wrapper input.button:focus{
+   background-color: #202020 !important;
+   opacity:.85;
+}
+
+.container .heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #444;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+:root {
+    --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+    --gray: #34495e;
+    --darkgray: #2c3e50;
+  }
+  
+  select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #466079;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #fff;
+  }
+  
+  /* Other styles*/
+  /* body {
+    color: #fff;
+    background: var(--background-gradient);
+  }
+  h1 {
+    margin: 0 0 0.25em;
+  }
+  a {
+    font-weight: bold;
+    color: var(--gray);
+    text-decoration: none;
+    padding: .25em;
+    border-radius: .25em;
+    background: white;
+  }
+   */

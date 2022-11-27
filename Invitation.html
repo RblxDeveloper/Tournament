@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Invitation.css">
+</head>
+<body>
+    <div class="container">
+		<a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
+        <h1 class="heading">Contact Us – Join The Tournament Now</h1>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+<div id="section3">
+  <a id="contact" class="js--wp-3" name="contact"></a>
+    <div class="row">
+    	<div class="form-wrapper">
+    		<!-- <h1 class="contact-title">Contact</h1> -->
+    		<div class="form-inner-wrapper">
+    		    <form id="contactForm" method="post" action="https://formspree.io/f/mqkjklvp" method="post">	
+    			<div class="field-list clear">
+    					<div id="name" class="form-item field email required">
+	                  			<label class="title" for="name">Name <span class="required">*</span> <span style="color: crimson;">Don't Use Your Real Name</span></label>
+	                  			<input class="field-element" name="name" x-autocompletetype="name" type="text" spellcheck="false" required>
+	                		</div>
+			                <div id="email" class="form-item field email required">
+				                <label class="title" for="email">Email <span class="required">*</span> <span style="color: crimson;">Make sure your real email is entered so you can receive an email from us!</span></label>
+				                <input class="field-element" name="email"  x-autocompletetype="email" type="text" id="email-field" required>
+			                </div>
+							<div id="email" class="form-item field email required">
+				                <label class="title" for="option">Prize <span class="required">*</span> <span style="color: crimson;">For The Winner</span></label><br>
+								<!-- <select name="option">
+									<option value="">kit cost 399</option>
+									<option value=""></option>
+									<option value=""></option>
+								</select> -->
+								<div class="select">
+									<select name="option">
+									  <option value="Nothing">Get Nothing</option>
+									  <option value="Kit">Any Kit Cost 399 Robux</option>
+									  <option value="Robux">Get 250 Robux</option>
+									  <option value="Clan">Join My Bedwars Clan</option>
+									</select>
+								  </div>
+								  <!-- <p>New version 2.0 without a div wrapper <a href="https://codepen.io/raubaca/pen/bGWmZje" target="_blank">here!</a></p> -->
+			                </div>
+			                <div id="textarea" class="form-item field textarea required">
+                				<label class="title" for="textarea-field">Message <span class="required">*</span></label>
+                				<textarea class="field-element" id="textarea--field" name="message"></textarea>
+              				</div>
+                            <div id="contactResponse"></div>
+                            <div class="form-button-wrapper form-button-wrapper--align-center">
+					          <input class="button" type="submit" name="submit" value="Submit">
+					   </div>
+    				</div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+</div>
+</body>
+</html>
