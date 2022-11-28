@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="css/Tournament.css">
 </head>
 <body>
+    <div class="nav" style="background-color: rgba(255, 0, 0, 0.7); height: 60px; display: flex; justify-content: center; align-items: center; font-size: 20px; color: #fff;">
+        <div class="nav-header">
+          <div class="nav-title" style="font-weight: 650; display: flex; align-items: center; justify-content: center;">
+            FAQ will be broken for most devices (We're working on it)
+          </div>
+        </div>
+      </div>
 <div class="container">
     <a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
     <h1 class="heading">FAQ</h1>
@@ -20,16 +27,16 @@
             <a href="#" class="btn" id="showButton">read more</a>
         </div>
         <div class="box">
-            <img src="image/icon-2.png" alt="">
-            <h3>?</h3>
-            <p>?</p>
-            <a href="#" class="btn">read more</a>
+            <i class="fa-solid fa-clipboard-list fa-4x"></i>
+            <h3>What Are The Rules?</h3>
+            <p>???</p>
+            <a href="#" class="btn" id="allButtons">read more</a>
         </div>
         <div class="box">
-            <img src="image/icon-3.png" alt="">
+            <i class="fa-solid fa-clipboard-list fa-4x"></i>
             <h3>?</h3>
             <p>?</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn" id="btn1">read more</a>
         </div>
         <div class="box">
             <img src="image/icon-4.png" alt="">
@@ -51,25 +58,61 @@
         </div>
     </div>
 </div>
-<div class="backgroundd">
     <div class="modal" id="hide">
         <div class="modal-header">
-            <button id="hideIcon">
-                <i class="fa fa-close"></i>
+            <button id="hideIcon" style="color: #fff; background: transparent; cursor: pointer;">
+                <i class="fa fa-close fa-xl"></i>
             </button>
         </div>
         <div class="modal-body">
-            <img src="modal-img.png" alt="...">
-            <h3>Well Done!</h3>
+            <i class="fa-solid fa-award fa-5x"></i>
+            <h3>What Will We Win?</h3>
             <p>
-                Click the button below to close
+                You Can Win 1 prize from {3} prizes, Kit or Joining my clan or Robux.
             </p>
             <button id="hideButton">Close</button>
         </div>
     </div>
-</div>
+
+    <!-- model 2 -->
+
+    <div class="modals" id="hide" style="margin-top: -460px;">
+        <div class="modal-header1">
+            <button id="hideIcons" style="color: #fff; background: transparent; cursor: pointer;">
+                <i class="fa fa-close fa-xl"></i>
+            </button>
+        </div>
+        <div class="modal-body1">
+            <i class="fa-solid fa-clipboard-list fa-5x"></i>
+            <h3>What Are The Rules?</h3>
+            <p>
+                All Kits Disabled. 
+            </p>
+            <button id="hideButtons">Close</button>
+        </div>
+    </div>
+
+    <!-- modal 3 -->
+
+    <div class="modal1" id="hide" style="margin-top: -460px;">
+        <div class="modal-header">
+            <button id="hideIcon1" style="color: #fff; background: transparent; cursor: pointer;">
+                <i class="fa fa-close fa-xl"></i>
+            </button>
+        </div>
+        <div class="modal-body">
+            <i class="fa-solid fa-clipboard-list fa-5x"></i>
+            <h3>What Are The Rules?</h3>
+            <p>
+                You Can Win 1 prize from {3} prizes, Kit or Friending me on Roblox or Robux.
+            </p>
+            <button id="hideButton1">Close</button>
+        </div>
+    </div>
     <!-- JS File -->
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script1.js"></script>
+    <script type="text/javascript" src="script2.js"></script>
 </html>
 </body>
 </html>

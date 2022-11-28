@@ -83,55 +83,65 @@
     margin-left: -95px;
 }
 
-.modal {
-    width: 400px;
+.modal , .modals , .modal1 {
+    width: 500px;
     height: 460px;
     margin: -600px auto 0px auto;
     border-radius: 12px;
-    background: #ffffff;
+    background: rgb(0, 0, 0);
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     transition: .4s;
 }
 
-.modal .modal-header {
+.modal .modal-header , .modals .modal-header1 , .modal1 .modal-header {
     display: flex;
     justify-content: flex-end;
     padding: 15px 18px;
 }
 
-.modal .modal-body {
+.modal .modal-body , .modals .modal-body1 , .modal1 .modal-body {
     text-align: center;
 }
 
-.modal .modal-body img {
+.modal .modal-body i , .modals .modal-body1 i , .modal1 .modal-body i {
+    color: #fff;
     width: 40%;
     margin: 10px 0 30px;
 }
 
-.modal .modal-body h3 {
-    color: #21202c;
-    font-size: 40px;
+.modal .modal-body p , .modals .modal-body1 p , .modal1 .modal-body p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    font-size: 16px;
 }
 
-.modal .modal-body button {
+.modal .modal-body h3 , .modals .modal-body1 h3 , .modal1 .modal-body h3 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.modal .modal-body button , .modals .modal-body1 button , .modal1 .modal-body button {
     cursor: pointer;
     margin-top: 30px;
     font-size: 22px;
-    background: #fe425b;
-    color: #ffffff;
+    background: #444;
+    color: #fff;
     padding: 12px 120px;
     border-radius: 6px;
     letter-spacing: 1px;
     transition: .4s;
 }
 
-.modal#hide {
+.modal#hide , .modals#hide , .modal1#hide {
     opacity: 0;
     transform: scale(.6);
     pointer-events: none;
 }
 
-.modal#show {
+.modal#show , .modals#show , .modal1#show {
     opacity: 1;
     transform: scale(1);
     pointer-events: visible;
